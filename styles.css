@@ -53,12 +53,21 @@ h2{font-size:1.15rem;color:var(--text);margin:0}
 /* Equipo */
 .team-grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-top:12px}
 .member-card{display:flex;flex-direction:column;align-items:flex-start;border-radius:10px;padding:14px;border:1px solid var(--border);background:linear-gradient(180deg,rgba(255,255,255,0.6),var(--surface));box-shadow:var(--shadow)}
-.member-card .avatar{width:100%;height:140px;border-radius:8px;background:linear-gradient(180deg,rgba(14,165,164,0.12),rgba(37,99,235,0.06));display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent);font-size:1.1rem;margin-bottom:10px}
+.member-card .avatar{width:100%;height:180px;border-radius:8px;background:linear-gradient(180deg,rgba(14,165,164,0.12),rgba(37,99,235,0.06));display:block;object-fit:cover;object-position:center;font-weight:700;color:var(--accent);font-size:1.1rem;margin-bottom:10px}
 .member-card h3{font-size:1.02rem;margin-bottom:6px}
 .member-card ul{list-style:none;color:var(--muted);font-size:0.94rem;padding-left:0}
 .member-card li{margin-bottom:6px}
 .process-photos{display:flex;gap:12px;margin-top:14px}
 .process-photos img{width:100%;max-width:48%;border-radius:10px;object-fit:cover;border:1px solid var(--border)}
+
+/* Preguntas y respuestas */
+.questions-list{display:grid;gap:12px;padding-left:28px;color:var(--text)}
+.questions-list li{padding:12px 14px;border:1px solid var(--border);border-radius:10px;background:rgba(14,165,164,0.03)}
+.answers-grid{display:grid;gap:14px}
+.answer-item{padding:16px;border:1px solid var(--border);border-radius:10px;background:linear-gradient(180deg,rgba(255,255,255,0.6),var(--surface))}
+.answer-item h3{margin-bottom:8px;color:var(--accent);font-size:1rem}
+.answer-item p,.answer-item li{color:var(--muted);font-size:0.95rem}
+.answer-item ul{display:grid;gap:10px;padding-left:20px}
 
 /* Care list */
 .care-list{list-style:none;display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
